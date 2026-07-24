@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hour Rate Task Manager | Gestão de Projetos & Taxa Horária</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    
+    <!-- Cabeçalho -->
+    <header class="header">
+      <div class="brand">
+        <h1>⚡ Hour Rate Task Manager</h1>
+        <p>Gestão Inteligente de Tarefas e Horas</p>
+      </div>
+    </header>
+
+    <!-- Métricas (Dashboard) -->
+    <section class="dashboard">
+      <div class="card">
+        <span class="card-title">Total de Tarefas</span>
+        <span class="card-value" id="totalTasks">0</span>
+      </div>
+      <div class="card">
+        <span class="card-title">Horas Estimadas</span>
+        <span class="card-value" id="totalHours">0h</span>
+      </div>
+      <div class="card highlight">
+        <span class="card-title">Valor Estimado Total</span>
+        <span class="card-value" id="totalValue">R$ 0,00</span>
+      </div>
+    </section>
+
+    <!-- Formulário com valor/hora por tarefa -->
+    <section class="form-section">
+      <h2>Adicionar Nova Tarefa</h2>
+      <form id="taskForm">
+        <div class="input-group full">
+          <input type="text" id="taskTitle" placeholder="Ex: Criar Wireframe do App" required>
+        </div>
+        <div class="form-row">
+          <div class="input-group">
+            <label for="taskHours">Horas:</label>
+            <input type="number" id="taskHours" placeholder="Ex: 5" min="0.5" step="0.5" required>
+          </div>
+          <div class="input-group">
+            <label for="taskRate">Valor/Hora (R$):</label>
+            <input type="number" id="taskRate" placeholder="Ex: 20" min="1" step="0.50" value="20" required>
+          </div>
+          <button type="submit" id="btnSubmit">+ Cadastrar</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Lista de Tarefas -->
+    <section class="tasks-section">
+      <div class="section-header">
+        <h2>Minhas Tarefas</h2>
+        <span id="completedCounter" class="badge">0 concluídas</span>
+      </div>
+      <ul id="taskList" class="task-list"></ul>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
