@@ -1,39 +1,36 @@
-# hour-rate-task-manager
-Interactive task &amp; hourly-rate tracking dashboard for freelancers built with HTML5, CSS3, and Vanilla JavaScript.
-# 🚀 DevFlow — Gestão de Tarefas & Valor por Hora
+# ⚡ Hour Rate Task Manager
 
-![DevFlow Banner](https://via.placeholder.com/1200x400?text=DevFlow+Dashboard+Preview) <!-- Substitua por um print ou GIF do seu projeto -->
-
-O **DevFlow** é uma aplicação web voltada para freelancers e desenvolvedores gerenciarem suas tarefas diárias com cálculo automático do valor estimado por projeto, baseado na sua taxa horária configurada.
+> Dashboard web interativo e responsivo desenvolvido para freelancers e profissionais de tecnologia gerenciarem o tempo de suas tarefas e estimarem seus ganhos com base na taxa horária.
 
 ---
 
-## 🔗 Demonstração
+## 🔗 Demonstração Online
 
-💻 **Acesse o projeto online:** [Clique aqui para testar](https://seu-usuario.github.io/devflow-task-tracker/)
+💻 **Acesse o app ao vivo:** [https://Wall369.github.io/hour-rate-task-manager/](https://Wall369.github.io/hour-rate-task-manager/)
 
 ---
 
 ## ✨ Funcionalidades
 
-- [x] **Gestão de Tarefas:** Adição, conclusão e remoção de tarefas em tempo real.
-- [x] **Cálculo de Taxa Horária:** Define o valor/hora do profissional e ajusta os ganhos totais dinamicamente.
-- [x] **Métricas em Tempo Real:** Dashboard simplificado com total de tarefas, horas estimadas e faturamento projetado.
-- [x] **Persistência de Dados:** Uso de `localStorage` para manter os dados salvos mesmo após fechar o navegador.
-- [x] **Interface Responsiva:** Adaptada para telas de computador e dispositivos móveis.
+- **Cálculo em Tempo Real:** Ajuste sua taxa/hora e veja o valor total dos projetos ser atualizado automaticamente.
+- **Gestão Completa de Tarefas (CRUD):** Criação, acompanhamento de progresso, alteração de status e exclusão de tarefas.
+- **Dashboard Financeiro:** Métrica visual para total de tarefas, soma total de horas estimadas e previsão de faturamento.
+- **Persistência Local (LocalStorage):** Seus dados permanecem salvos localmente mesmo após fechar ou atualizar o navegador.
+- **Interface Responsiva:** Otimizada para uso em smartphones, tablets e computadores.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5:** Estrutura semântica do projeto.
-- **CSS3:** Estilização moderna e layout responsivo com Flexbox/Grid.
-- **JavaScript (ES6+):** Manipulação de DOM, regras de negócio e persistência de dados.
+- **HTML5:** Estrutura semântica e acessível.
+- **CSS3:** Variáveis CSS, Flexbox, Grid Layout e design responsivo moderno (*Dark Theme*).
+- **JavaScript (Vanilla / ES6+):** Manipulação dinâmica de DOM, escutadores de eventos e persistência com `localStorage`.
 
 ---
 
 ## 🚀 Como Executar o Projeto Localmente
 
-1. Clone o repositório:
+1. Clone este repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/devflow-task-tracker.git](https://github.com/seu-usuario/devflow-task-tracker.git)
+   git clone [https://github.com/Wall369/hour-rate-task-manager.git](https://github.com/Wall369/hour-rate-task-manager.git)
+   
